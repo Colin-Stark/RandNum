@@ -40,7 +40,7 @@ method "reset_game_params(account,account,account)void"
 ==
 bnz main_l13
 txna ApplicationArgs 0
-method "get_total_game_played()uint64"
+method "get_total_games_played()uint64"
 ==
 bnz main_l12
 err
